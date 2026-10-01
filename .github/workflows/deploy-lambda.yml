@@ -1,4 +1,4 @@
-name: Deploy Lambda
+name: ML Training Pipeline
 
 # Add this trigger block near the top
 on:
