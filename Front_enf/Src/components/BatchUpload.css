@@ -1,0 +1,71 @@
+.batch-container {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-top: 20px;
+}
+
+.batch-container h2 {
+    color: #1a365d;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+}
+
+.batch-container p {
+    color: #4a5568;
+    font-size: 0.95rem;
+}
+
+.batch-container input[type="file"] {
+    padding: 10px;
+    background: #f7fafc;
+    border: 2px dashed #cbd5e0;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+
+.batch-container input[type="file"]:hover {
+    border-color: #3182ce;
+}
+
+.batch-results {
+    margin-top: 20px;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.batch-results table {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.batch-results th {
+    background-color: #2d3748 !important;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+.batch-results td {
+    font-size: 0.9rem;
+    color: #2d3748;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.batch-results tr:hover {
+    background-color: #f8fafc;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
