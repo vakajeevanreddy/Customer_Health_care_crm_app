@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Healthcare CRM with AWS, MLOps, RAG, and SLMs
 
 A next-generation, HIPAA-compliant Healthcare CRM application that combines structured patient data management with predictive machine learning (MLOps) and secure Retrieval-Augmented Generation (RAG) powered by Small Language Models (SLMs) via Amazon Bedrock.
@@ -83,3 +84,6 @@ python -c "import prompt_templates; print('RAG module loaded successfully!')"
 
 ## License
 This project is proprietary and confidential.
+=======
+# Customer_Health_care_crm_app
+>>>>>>> a5689463ed49802f3752e321932cb8e8cd98f64b
