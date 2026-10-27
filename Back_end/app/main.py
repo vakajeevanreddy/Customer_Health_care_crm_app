@@ -199,3 +199,4 @@ def get_assesment_history():
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
